@@ -61,7 +61,7 @@
    \endcode
 */
 #ifndef BLAZE_BLAS_MODE
-#define BLAZE_BLAS_MODE 0
+#define BLAZE_BLAS_MODE 1
 #endif
 //*************************************************************************************************
 
@@ -90,7 +90,7 @@
    \endcode
 */
 #ifndef BLAZE_USE_BLAS_MATRIX_VECTOR_MULTIPLICATION
-#define BLAZE_USE_BLAS_MATRIX_VECTOR_MULTIPLICATION 0
+#define BLAZE_USE_BLAS_MATRIX_VECTOR_MULTIPLICATION 1
 #endif
 //*************************************************************************************************
 
@@ -149,7 +149,7 @@
    \endcode
 */
 #ifndef BLAZE_BLAS_IS_PARALLEL
-#define BLAZE_BLAS_IS_PARALLEL 0
+#define BLAZE_BLAS_IS_PARALLEL 1
 #endif
 //*************************************************************************************************
 
@@ -175,6 +175,6 @@
    \endcode
 */
 #ifndef BLAZE_BLAS_INCLUDE_FILE
-#define BLAZE_BLAS_INCLUDE_FILE <cblas.h>
+#define BLAZE_BLAS_INCLUDE_FILE <mkl_cblas.h>
 #endif
 //*************************************************************************************************
